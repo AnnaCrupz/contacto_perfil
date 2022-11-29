@@ -65,7 +65,7 @@
             <div class="col-10 perfil-usuario-portada ">
                
                 <div class="col-6 perfil-usuario-imagen">
-                    <img src="assets/img/imagenPerfil.png" alt="imagen-usuario">
+                    <img src="assets/img/profil.webp" alt="imagen-usuario">
                 </div>
                 <button type="button" class="boton-portada">
                     Cambiar datos
@@ -74,24 +74,30 @@
         </div>
         <div class="row perfil-usuario-body">
             <div class="col-10 perfil-usuario-bio">
-                <h3 class="usuario d-block w-100 my-2">Nombre de usuario</h3>
+                <h3 class="usuario d-block w-100 my-4">Nombre de usuario</h3>
                 <!--<p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua.</p> -->
             </div>
             <div class="row perfil-usuario-datos">
                 <form action="#">
-                        <div class="w-100">
-                            <label for="email" class="form_label">Correo electrónico:</label>
-                            <input type="email" class="form-control" name="email" disabled="disabled" value="usuario@gmail.com">
+                        <div class="row">
+
+                            <label for="email" class="col-md-4 form_label">Correo electrónico:</label>
+                            <input type="email" class="col form-control" name="email" disabled="disabled" value="usuario@gmail.com">
                         </div>
-                        <div class="">
-                            <label for="adress" class="form_label"><i class="icono fas fa-map-signs"></i>Dirección:</label>
-                            <input type="adress" class="form-control" name="adress" disabled="disabled" value="NY. 5 24270">
+
+                        <div class="row">
+                            <label for="adress" class="col-md-4 form_label"><i class="icono fas fa-map-signs"></i>Dirección:</label>
+                            <input type="adress" class="col form-control" name="adress" disabled="disabled" value="NY. 5 24270">
                         </div>
-                        <div class="">
-                            <label for="tel" class="form_label"><i class="icono fas fa-phone-alt"></i>Teléfono:</label>
-                            <input type="tel" class="form-control" name="tel" disabled="disabled" value="5555555555">
+                        <div class="row">
+                            <label for="tel" class="col-md-4 form_label"><i class="icono fas fa-phone-alt"></i>Teléfono:</label>
+                            <input type="tel" class="col form-control" name="tel" disabled="disabled" value="5555555555">
                         </div>
+                        <div class="row">
+                          <label for="password" class="col-md-4 form_label"><i class="icono fas fa-phone-alt"></i>Contraseña:</label>
+                          <input type="password" class="col form-control" name="password" disabled="disabled" value="5555555555">
+                      </div>
                 </form> 
             </div>
 

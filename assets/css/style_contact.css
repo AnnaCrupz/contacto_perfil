@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Lato&family=Roboto+Mono:ital,wght@1,200&family=Shalimar&family=Source+Sans+Pro:wght@200&display=swap');
+
 :root {
     --pinkLight:#FFD8F3;
     --pinkLight2:#faf6f9;
@@ -46,9 +48,13 @@
     font-family: var(--font-family-sans-serif);
 }
 body{
-  background: linear-gradient(135deg,var(--colorgradiente1),var(--colorgradiente2),var(--colorgradiente3),var(--colorgradiente4),var(--colorgradiente5));
-
+   background-color: var(--light);
   }
+h1{
+  font-size: 3em;
+  text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+
+}
 input{
   font-size: 1.2em;
   color: var(--dark);
